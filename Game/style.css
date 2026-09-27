@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+button{
+    background-color: #58b3e2;
+    font-size: medium;
+}
+
+.invisible {
+    display: none;
+}
+
+.death {
+    background-color: red;
+    height: 300px;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#events {
+    background-color: greenyellow;
+    padding-left: 400px;
+    padding-right: 400px;
+    font-size: large;
+}
+
+.end {
+    height: 300px;
+    font-family: 'PressStart2P';
+    size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stage_vis {
+    display: flex;
+    background-color: cadetblue;
+    height: 250px;
+    padding-left: 400px;
+    padding-right: 400px;
+    align-items: center;
+    flex-direction: column;
+}
+.text{
+    background-color: antiquewhite;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-top: 5%;
+    font-size: large;
+}
+
+#inputs2{
+    display: flex;
+    flex-direction: row;
+}
+
+#choice2_1{
+    width: 60px;
+    height: 80px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: aqua;
+}
+
+#choice2_2{
+    width: 60px;
+    height: 80px;
+    margin-right: 30px;
+    margin-top: 30px;
+    background-color: yellow;
+}
+
+#choice2_3{
+    width: 60px;
+    height: 80px;
+    margin-top: 30px;
+    background-color: red;
+}
+
+#choice4_1 {
+    width: 90px;
+    height: 10px;
+    margin-top: 30px;
+    background-color: red;
+}
+
+#choice4_2 {
+    width: 90px;
+    height: 10px;
+    margin-top: 30px;
+    background-color: green;
+}
+
+#choice4_3 {
+    width: 90px;
+    height: 10px;
+    margin-top: 30px;
+    background-color: blue;
+}
+
+@font-face {
+    font-family: 'PressStart2P';
+    src: url('./PressStart2P-Regular.ttf') format('truetype');
+}
+
+#title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-size: 60px;
+    color: #00ffef;
+    font-family: 'PressStart2P';
+}
+
+#reload button {
+    margin-top: 25px;
+    font-size: 35px;
+}
+
+#robin {
+    background-color: greenyellow;
+}

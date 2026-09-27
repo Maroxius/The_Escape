@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The Escape</title>
+</head>
+
+<body>
+    <div id='start' align="center">
+        <div id="title">The Escape</div>
+        <button id="startGame">Начало игры</button>
+    </div>
+
+    <div class="invisible" id="deathScreen">YOU DIED</div>
+    <div id="events" align="center"></div>
+    <div class="invisible" id="reload" align="center">
+        <button onClick="window.location.reload();">Вернуться к началу</button>
+    </div>
+
+    <div class="invisible" id="robin" align="center">
+        <img src="../Cool pictures/dancing robinetto.gif" alt="Урааа" width="640px" height="360px">
+    </div>
+
+    <!-- stage 1 -->
+    <div class="invisible" id="stage1">
+        <div class="text">Вы проснулись в какой-то капсуле. Вся комната выглядит футуристично. Через несколько секунд после вашего
+            пробуждения вы услышали писк, у вас было мало времени для принятия решения.</div>
+        <div id="inputs1">
+            <button id="choice1_1">Остаться</button>
+            <button id="choice1_2">Бежать</button>
+            <button id="choice1_3">Спрятаться</button>
+        </div>
+    </div>
+    <div align="center">
+        <button class="invisible" id="stage1End" align="center">Дальше</button>
+    </div>
+    <!-- stage 2 -->
+    <div class="invisible" id="stage2">
+        <div class="text">Когда вы были уверены, что эти люди ушли, вы вышли в ту же дверь, через которую они ушли. За дверью был коридор, вы побежали в случайную сторону. По пути вы поняли, что сильно хотите пить, и к счастью вы увидели стол с тремя стаканами. В каждом из стаканов была разная жидкость, и среди них желтая жидкость шипела.</div>
+        <div id="inputs2">
+            <div id="choice2_1"></div>
+            <div id="choice2_2"></div>
+            <div id="choice2_3"></div>
+        </div>
+    </div>
+    <div align="center">
+        <button class="invisible" id="stage2End" align="center">Дальше</button>
+    </div>
+    <!-- stage 3 -->
+    <div class="invisible" id="stage3">
+        <div class="text">После того, как вы выпили тот лимонад, вы продолжили идти по этому коридору. Вскоре вы увидели дверь и что-то напоминающее электрощиток. У двери не было ручки, но на стене рядом с ней был сканер, судя по всему для отпечатка руки. Электрощиток был подключен к сканеру.</div>
+        <div id="inputs3">
+            <button id="choice3_1">Открыть электрощиток</button>
+            <button id="choice3_2">Ударить дверь</button>
+            <button id="choice3_3">Приложить руку к сканеру</button>
+            <button id="choice3_4">Ударить электрощиток</button>
+        </div>
+    </div>
+    <div align="center">
+        <button class="invisible" id="stage3End" align="center">Дальше</button>
+    </div>
+    <!-- stage 4 -->
+    <div class="invisible" id="stage4">
+        <div class="text">В электрощитке вы увидели три провода. Возможно разрезав один из них дверь откроется. Зеленый провод выглядит более плотным чем остальные.</div>
+        <div id="inputs4">
+            <div id="choice4_1"></div>
+            <div id="choice4_2"></div>
+            <div id="choice4_3"></div>
+        </div>
+    </div>
+    <div align="center">
+        <button class="invisible" id="stage4End" align="center">Дальше</button>
+    </div>
+    <!-- stage 5 -->
+    <div class="invisible" id="stage5">
+        <div class="text">За дверью были три пути: налево, вперед и направо.</div>
+        <div id="inputs5">
+            <button id="choice5_1">Пойти налево</button>
+            <button id="choice5_2">Пойти вперед</button>
+            <button id="choice5_3">Пойти направо</button>
+        </div>
+    </div>
+    <div align="center">
+        <button class="invisible" id="stage5End" align="center">Дальше</button>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
